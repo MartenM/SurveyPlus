@@ -1,0 +1,93 @@
+invalid-args: '&cInvalid args!'
+no-permissions: '&cYou don''t have permission for that!'
+player-only-command: '&cThis is player only command!'
+insert-answer-chat: '&e&lPlease type your answer in chat.'
+survey-preview: '&cSurvey was in preview made. Answers have not been saved.'
+invalid-answer: '&cInvalid answer!'
+invalid-number: '&cInvalid number...'
+not-in-survey: '&cYou are currently not participating in a survey.'
+survey-reset: '&cThe survey has been reset.'
+survey-removed: '&cThe survey has been removed.'
+survey-remove: '&c&lREMOVE SURVEY'
+survey-error: '&cSurvey has been incorrectly configured. Please report this error
+  to an administrator.'
+survey-created: '&aA new empty has been created with ID: %id%'
+chat-input-cancelled: '&cCancelled the input.'
+chat-new-question: '&ePlease type the new question in chat. Type &ccancel &eto cancel
+  the process.'
+chat-new-index: '&ePlease type the new target in chat. Type &ccancel &eto cancel the
+  process.'
+chat-new-name: '&ePlease type the new description in chat. Type &ccancel &eto cancel
+  the process.'
+chat-new-name-copy: '&7[&a!&7] Click this message to copy the old description.'
+max-amount-reached: '&cMax amount reached!'
+add-new-addition: '&ePlease type the addition in chat. Type &ccancel &eto cancel the
+  process.'
+exit-and-save: '&aExit and save'
+exit-without-save: '&cExited without saving'
+right-click-to-preview: Right click to preview.
+middle-click-to-results: Middle click to view results.
+left-click-to-edit: Left click to edit.
+reset-surveys: Reset surveys
+reset-survey: Reset survey
+remove-all-anwsers: Removes all answers
+resets-all-surveys: Resets all surveys.
+all-answers: ALL answers
+resetting-sure: Resetting  |  Are you sure?
+click-available: '&7Click to set to available.'
+clic-unavailable: '&7Click to set the survey unavailable.'
+new-survey: '&6New &aSurvey'
+choose-survey-type: 'Choose a survey type:'
+open-user-menu: '&eOpen the user menu'
+target-server-group: Target server group
+target-hint-all: Type 'ALL' to target all possible server groups.
+click-not-featured: '&7Click to set to stop featuring this survey.'
+click-featured: '&7Click to start featuring this survey.'
+add-new-question: Add a new question.
+add-new: Add new
+remove-question: '&c&lRemove question'
+removing-confirm: '&4Removing | Are you sure?'
+question-removed: '&aQuestion removed succesfully.'
+choose-question-type: 'Choose a question type:'
+closed-question: Closed question
+choose-question: Choose question
+open-question: Open question
+multiple-question: Multiple question
+'yes': '&a&lYES'
+'no': '&c&lNO'
+add: '&a&lAdd'
+clear: clear
+featured: '&6&lFeatured'
+not-featured: '&cNot featured'
+available: '&a&lAvailable!'
+unavailable: '&cUnavailable'
+close: Close
+question: Question
+questions: Questions
+description: Description
+deletes: Deletes
+rewards: Rewards
+id: ID
+order: Order
+type: Type
+answer: answer
+answers: answers
+previous: Previous
+next: Next
+back: Back
+name: Name
+click: '&eClick!'
+click-to-edit: '&eClick to edit'
+survey: Survey
+chat-survey: Chat Survey
+gui-survey: GUI Survey
+book-survey: Book survey
+create-new: Create new
+empty-survey: empty survey
+click-to-change: Click to change
+chat-survey-start-hover: '&6Click to start the survey!'
+successfully-started-other: '&aSuccessfully started the survey for the targed player.'
+failed-start-other: '&cFailed to start the survey for the targed player.'
+failed-star: '&cFailed to start the survey.'
+wrong-command-format: '&cWrong arguments, please use the command like this: '
+player-not-found: '&cUnable to find that player on this server.'

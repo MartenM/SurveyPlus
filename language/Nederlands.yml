@@ -1,0 +1,78 @@
+invalid-args: '&cOnjuiste argumenten!'
+no-permissions: '&cJe hebt geen permissie om dat te doen.'
+player-only-command: '&cDit is een command voor alleen players.'
+insert-answer-chat: '&e&lTiep je answer in chat.'
+survey-preview: '&cEnquête was in voorbeeld modus. Antwoorden zijn niet opgeslagen.'
+invalid-answer: '&cOngeldig antwoord!'
+invalid-number: '&cOngeldig nummer...'
+not-in-survey: '&cU neemt momenteel niet deel aan een enquête.'
+survey-reset: '&cThe survey has been reset.'
+survey-removed: '&cDe enquête is gereset.'
+survey-remove: '&c&lVERWIJDER ENQUÊTE'
+survey-error: '&cEnquête is onjuist geconfigureerd. Rapporteer deze fout alstublieft naar een beheerder.'
+survey-created: '&aEr is een nieuwe lege enquête gemaakt met ID: %id%'
+chat-input-cancelled: '&cAnnuleerde de invoer.'
+chat-new-question: '&eTyp de nieuwe vraag in de chat. Typ &ccancel &e om het proces te annuleren.'
+chat-new-index: '&eTyp het nieuwe doel in de chat. Typ &ccancel &e om het proces te annuleren.'
+chat-new-name: '&eTyp de nieuwe beschrijving in de chat. Typ &ccancel &e om het proces te annuleren.'
+chat-new-name-copy: '&7[&a!&7] Klik op dit bericht om de oude beschrijving te kopiëren.'
+max-amount-reached: '&cMax aantal bereikt!'
+add-new-addition: '&eTyp de toevoeging in de chat.. Typ &ccancel &e om het proces te annuleren.'
+exit-and-save: '&aAfsluiten en bewaren'
+exit-without-save: '&cAfgesloten zonder te bewaren'
+right-click-to-preview: Klik met de rechtermuisknop om een voorbeeld te bekijken
+middle-click-to-results: Middelste klik om resultaten te bekijken.
+left-click-to-edit: Klik met de linkermuisknop om te bewerken.
+reset-surveys: Reset enquêtes
+reset-survey: Reset enquête
+remove-all-anwsers: Verwijdert alle antwoorden
+resets-all-surveys: Reset alle enquêtes.
+all-answers: ALLE antwoorden
+resetting-sure: Resetten | Weet je het zeker?
+click-inactive: '&7Klik om inactief te zetten. '
+clic-active: '&7Klik om in te stellen als actieve enquête. '
+new-survey: '&6Nieuwe &aenquête '
+choose-survey-type: 'Kies een type enquête:'
+target-server-group: Doelservergroep
+target-hint-all: Typ 'ALL' om alle mogelijke servergroepen te targeten.
+add-new-question: Voeg een nieuwe vraag toe.
+add-new: Voeg toe
+remove-question: '&c&lVraag verwijderen '
+removing-confirm: '&4Verwijderen | Weet je het zeker?'
+question-removed: '&aVraag met succes verwijderd. '
+choose-question-type: 'Kies een vraagtype: '
+closed-question: Gesloten vraag
+choose-question: Kies vraag
+open-question: Open vraag
+multiple-question: Meerdere vragen
+'yes': '&a&lJA'
+'no': '&c&lNEE'
+add: '&a&lToevoegen'
+clear: clear
+active: '&a&lActief'
+close: Sluiten
+question: Vraag
+questions: Vragen
+description: Beschrijving
+deletes: Verwijdert
+rewards: Beloningen
+id: ID
+order: Volgorde
+type: Type
+answer: antwoord
+answers: antwoorden
+previous: Vorige
+next: Volgende
+back: Terug
+name: Naam
+click: '&eKlik!'
+click-to-edit: '&eKlik om te wijzigen'
+survey: Enquête
+chat-survey: Chat enquête
+gui-survey: GUI enquête
+book-survey: Boek enquête
+create-new: Maak nieuw
+empty-survey: lege enquête
+click-to-change: Klik om te veranderen
+chat-survey-start-hover: '&6Klik om de enquête te starten! '
+insert_answer_chat: '&e&lTyp uw antwoord in de chat. '
