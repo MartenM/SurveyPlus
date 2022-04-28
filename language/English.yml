@@ -1,93 +1,133 @@
-invalid-args: '&cInvalid args!'
-no-permissions: '&cYou don''t have permission for that!'
-player-only-command: '&cThis is player only command!'
-insert-answer-chat: '&e&lPlease type your answer in chat.'
-survey-preview: '&cSurvey was in preview made. Answers have not been saved.'
-invalid-answer: '&cInvalid answer!'
-invalid-number: '&cInvalid number...'
-not-in-survey: '&cYou are currently not participating in a survey.'
-survey-reset: '&cThe survey has been reset.'
-survey-removed: '&cThe survey has been removed.'
-survey-remove: '&c&lREMOVE SURVEY'
-survey-error: '&cSurvey has been incorrectly configured. Please report this error
-  to an administrator.'
-survey-created: '&aA new empty has been created with ID: %id%'
-chat-input-cancelled: '&cCancelled the input.'
-chat-new-question: '&ePlease type the new question in chat. Type &ccancel &eto cancel
-  the process.'
-chat-new-index: '&ePlease type the new target in chat. Type &ccancel &eto cancel the
-  process.'
-chat-new-name: '&ePlease type the new description in chat. Type &ccancel &eto cancel
-  the process.'
-chat-new-name-copy: '&7[&a!&7] Click this message to copy the old description.'
-max-amount-reached: '&cMax amount reached!'
-add-new-addition: '&ePlease type the addition in chat. Type &ccancel &eto cancel the
-  process.'
-exit-and-save: '&aExit and save'
-exit-without-save: '&cExited without saving'
-right-click-to-preview: Right click to preview.
-middle-click-to-results: Middle click to view results.
-left-click-to-edit: Left click to edit.
-reset-surveys: Reset surveys
-reset-survey: Reset survey
-remove-all-anwsers: Removes all answers
-resets-all-surveys: Resets all surveys.
-all-answers: ALL answers
-resetting-sure: Resetting  |  Are you sure?
-click-available: '&7Click to set to available.'
-clic-unavailable: '&7Click to set the survey unavailable.'
-new-survey: '&6New &aSurvey'
-choose-survey-type: 'Choose a survey type:'
-open-user-menu: '&eOpen the user menu'
-target-server-group: Target server group
-target-hint-all: Type 'ALL' to target all possible server groups.
-click-not-featured: '&7Click to set to stop featuring this survey.'
-click-featured: '&7Click to start featuring this survey.'
-add-new-question: Add a new question.
-add-new: Add new
-remove-question: '&c&lRemove question'
-removing-confirm: '&4Removing | Are you sure?'
-question-removed: '&aQuestion removed succesfully.'
-choose-question-type: 'Choose a question type:'
-closed-question: Closed question
-choose-question: Choose question
-open-question: Open question
-multiple-question: Multiple question
-'yes': '&a&lYES'
-'no': '&c&lNO'
-add: '&a&lAdd'
-clear: clear
-featured: '&6&lFeatured'
-not-featured: '&cNot featured'
-available: '&a&lAvailable!'
-unavailable: '&cUnavailable'
-close: Close
-question: Question
-questions: Questions
-description: Description
-deletes: Deletes
-rewards: Rewards
-id: ID
-order: Order
-type: Type
-answer: answer
-answers: answers
-previous: Previous
-next: Next
-back: Back
-name: Name
-click: '&eClick!'
-click-to-edit: '&eClick to edit'
-survey: Survey
-chat-survey: Chat Survey
-gui-survey: GUI Survey
-book-survey: Book survey
-create-new: Create new
-empty-survey: empty survey
-click-to-change: Click to change
-chat-survey-start-hover: '&6Click to start the survey!'
-successfully-started-other: '&aSuccessfully started the survey for the targed player.'
-failed-start-other: '&cFailed to start the survey for the targed player.'
-failed-star: '&cFailed to start the survey.'
-wrong-command-format: '&cWrong arguments, please use the command like this: '
-player-not-found: '&cUnable to find that player on this server.'
+invalid-args: '&cInvalid args! Use /sp help for help.'
+no-perms: '&cYou don''t have permission to do that!'
+no-perms-start: '&cYou don''t have permission to start this survey.'
+player-only-command: '&cSorry! This command is only available for in game players.'
+cmd-start-id-missing: '&cPlease specify the ID of the survey to be started.'
+cmd-start-id-incorrect: '&cPlease use a numerical ID.'
+cmd-start-player-not-found: '&cThe target player could not be found.'
+cmd-start-success: '&aSurvey started successfully.'
+cmd-start-error: '&cCould not start survey. Reason:&f '
+cmd-settings-refreshed: '&aSettings have been loaded and refreshed.'
+cmd-settings-list-hint: '&7Survey settings can be changed in the database or click
+  to copy.'
+cmd-settings-unkown-setting: '&cUnknown setting. Are you sure you typed it correctly?'
+cmd-settings-setting-set: '&aSetting has been updated.'
+cmd-export-error-survey-id: '&cNo survey with that ID was found.'
+cmd-export-success: '&aSuccessfully created the export!'
+cmd-export-failed: '&cFailed to export data. Please check the console for errors.'
+cmd-reload-warning: '&cFriendly note: &7This command may, or may not cause issues.
+  A full server restart is always better!'
+cmd-reload-success: '&aSurvey&6+&7 configuration files have been reloaded successfully.'
+survey-cancelled: '&cYour current survey was cancelled. Sorry for the inconvenience!'
+survey-old-cancelled: '&cYour old survey session has been cancelled.'
+survey-old-cancelled-other: '&cThe user already has a survey going on. The old active
+  survey session has been cancelled.'
+survey-preview-mode-finished: '&8[&c&l!&8]&7 &7Survey has finished in &cpreview mode&7.
+  Answers have not been saved. Rewards have been given.'
+inv-confirm-yes: '&a&lYES'
+inv-confirm-no: '&c&lNO'
+inv-strings-title: 'Edit: '
+inv-strings-add: '&aAdd an item'
+inv-strings-add-chat-hint: '&ePlease type the new entry in chat.'
+inv-strings-save-quit: '&a&lSave & Quit'
+inv-string-save-quit-hint: '&7Save the list and exit.'
+inv-strings-quit: '&c&lQuit'
+inv-string-quit-hint: '&7Quit the list without saving.'
+inv-rewards-add: '&aAdd a reward'
+inv-rewards-chat-hint: '&7Check the golden nugget for hints on how to create rewards.'
+inv-qeditor-title: 'Survey question | ID: %id%'
+inv-qeditor-text: '&eQuestion text:'
+inv-qeditor-text-hint: '&ePlease enter the new question text in chat.'
+inv-qeditor-type: '&eQuestion type:'
+inv-qeditor-answer-options: '&eAnswer options:'
+inv-qeditor-weight: '&eQuestion order:'
+inv-qeditor-weight-invalid: '&cThat''s an invalid weight. Weights have to be numeric.'
+inv-qeditor-conditions: '&eQuestion conditions:'
+inv-qeditor-conditions-editor-title: Question conditions
+inv-qeditor-conditions-parse-error: '&cNot all conditions are valid. Please check
+  your syntax!'
+inv-qeditor-delete: '&cDelete question'
+inv-seditor-name: '&eSurvey name:'
+inv-seditor-name-new-chat: '&ePlease enter the new name in chat. Type &ccancel&e to
+  cancel.'
+inv-seditor-name-copy: '&8[&e&l!&8]&7 Click here to copy the old name.'
+inv-seditor-description: '&eSurvey description:'
+inv-seditor-description-new-chat: '&ePlease enter the new description in chat. Type
+  &ccancel&e to cancel.'
+inv-seditor-description-copy: '&8[&e&l!&8]&7 Click here to copy the old description.'
+inv-seditor-rewards: '&6Rewards:'
+inv-seditor-rewards-title: ''
+inv-seditor-rewards-premade: '&ePremade actions:'
+inv-seditor-rewards-placeholders: '&ePlaceholders:'
+inv-seditor-rewards-examples: '&eExample inputs:'
+inv-seditor-rewards-other: '&7Inputs that don''t match any of the cases are executed
+  as commands by the &cserver&7. This might not be supported in the future. Use &acmd:&7
+  instead.'
+inv-seditor-type: '&eType:'
+inv-seditor-questions: '&eQuestions:'
+inv-seditor-target-server: '&eTarget server:'
+inv-seditor-target-server-hint: '&7The server that this survey should be featured
+  on. Use ALL for all servers.'
+inv-seditor-target-server-new-chat: '&ePlease enter the new target server in chat.
+  Type &ccancel&e to cancel.'
+inv-seditor-target-server-copy: '&8[&e&l!&8]&7 Click here to copy the target server.'
+inv-seditor-delete-survey: '&c&lDelete survey'
+inv-seditor-delete-survey-hint: '&cDelete the survey and all its contents.'
+inv-seditor-delete-confirmation: '&4&lDeleting survey&r | Are you sure?'
+inv-seditor-delete-done: '&eSurvey deleted successfully.'
+inv-seditor-reset-answers: '&c&lReset answers'
+inv-seditor-reset-answers-hint: '&7Removes all answers that have been given. Allows
+  people to complete a survey for the second time!'
+inv-seditor-reset-answers-confirmation: '&c&lDeleting answers&r | Are you sure?'
+inv-seditor-reset-answers-done: '&eAnswers have been deleted successfully.'
+inv-seditor-preview-1: '&eLeft click to start a &cpreview,'
+inv-seditor-preview-2: '&eRight click to start a &cnormally,'
+inv-seditor-results: '&aSurvey results | Generate report'
+inv-seditor-survey-available: '&a&lSurvey is available.'
+inv-seditor-survey-unavailable: '&cSurvey is unavailable.'
+inv-seditor-survey-featured: '&a&lSurvey is&6&l featured&a.'
+inv-seditor-survey-not-featured: '&cSurvey is not featured.'
+inv-seditor-survey-permission-title: '&eToggle permission'
+inv-seditor-survey-permission-on: '&eThis survey currently requires the permission
+  &c%s&e to be shown to players.'
+inv-seditor-survey-permission-off: '&7This survey requires no additional permissions
+  to be shown to players.'
+inv-seditor-survey-requires-permission: '&eThe survey now requires the permission
+  &c%s&e to be shown to players'
+inv-seditor-survey-requires-no-permission: '&eThe survey now &eno&e longer requires
+  permission to be shown to players.'
+inv-seditor-survey-advanced-settings-title: '&eAdvanced survey settings'
+inv-seditor-survey-advanced-settings-hint: '&7Click to edit advanced survey settings'
+inv-slist-title: Survey overview
+inv-slist-create-new: '&aCreate new survey'
+inv-slist-open-available: '&aOpen the available survey player menu'
+inv-slist-description: '&eDescription: &f'
+inv-slist-type: '&eType: &7'
+inv-slist-rewards: '&eRewards: &6'
+inv-slist-survey-id: '&8Survey ID:'
+inv-slist-click-to-edit: '&7Click to edit'
+inv-qlist-title: Question manager | %survey_name%
+inv-qlist-add-question: '&aAdd question'
+inv-qlist-type: '&eType: &f'
+inv-qlist-weight: '&eWeight: &f'
+inv-qlist-options: '&eOptions: &f'
+inv-qlist-id: '&8ID: '
+inv-report-title: 'Survey report: %survey_name%'
+inv-report-participants: '&7&lParticipants'
+inv-report-average-completion-time: '&aAverage completion time'
+report-percentage: 'Percentage: %.2f'
+report-votes: 'Votes: %d'
+report-open-total: 'Total answers:'
+error-no-questions: '&cSurvey could not be started. Surveys require at least one question.'
+generic-error-start: '&cFailed to start survey. Reason: &f'
+featured: '&7&lFeatured'
+available: '&aAvailable'
+error: '&cSomething went wrong! Please check the console for more information.'
+click-to-toggle: '&7Click to toggle'
+copy: '&eCopy'
+saved: '&7Changes have been saved...'
+loading: '&3L&2o&aa&ed&6i&cn&4g'
+back: '&eBack'
+next-page: '&eNext page'
+previous-page: '&ePrevious page'
+end: END
